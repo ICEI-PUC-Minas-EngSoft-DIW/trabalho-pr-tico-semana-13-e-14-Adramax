@@ -1,0 +1,56 @@
+{
+  "artistas": [
+    {
+      "id": "6456",
+      "nome": "Leonardo da Vinci",
+      "descricao": "Artista e inventor renascentista italiano, conhecido por unir arte, ciência e engenharia em obras como Mona Lisa e A Última Ceia.",
+      "biografia": "Leonardo da Vinci (1452–1519) foi um dos maiores gênios do Renascimento. Pintor, escultor, inventor, engenheiro e cientista, deixou obras icônicas como Mona Lisa e A Última Ceia, além de inúmeros cadernos com estudos de anatomia, máquinas voadoras, arquitetura e engenharia. Sua curiosidade infinita e a mistura de arte com ciência fizeram dele um símbolo da criatividade humana.",
+      "pais": "Italia",
+      "destaque": true,
+      "imagem_principal": "https://www.cartacapital.com.br/wp-content/uploads/2019/02/Kombo-Leonardo-Da-Vinci-und-Leonardo-di-Caprio-1024x1001.jpg",
+      "obras": [
+        {
+          "id": 1,
+          "titulo": "Mona Lisa (c. 1503–1519)",
+          "descricao": "Retrato em meio-corpo de uma mulher com expressão enigmática, sentado diante de uma paisagem distante.",
+          "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/960px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg"
+        },
+        {
+          "id": 2,
+          "titulo": "A Última Ceia (1494–1498)",
+          "descricao": "Mural que representa o momento em que Jesus anuncia aos doze apóstolos que será traído.",
+          "imagem": "https://istoe.com.br/wp-content/uploads/2021/05/ceia-2-1280x720-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "83f9",
+      "nome": "Claude Monet",
+      "descricao": "Pintor francês e um dos principais nomes do impressionismo, famoso por retratar luz e cor em séries como Nenúfares e Impressão, nascer do sol.",
+      "biografia": "Claude Monet (1840–1926) foi um dos fundadores do movimento impressionista. Interessado em capturar as mudanças de luz e atmosfera, pintava a mesma cena em diferentes horários e estações, como nas séries da Catedral de Rouen e dos Nenúfares em seu jardim em Giverny. Sua pincelada solta e o uso de cores vibrantes influenciaram profundamente a arte moderna.",
+      "pais": "Franca",
+      "destaque": true,
+      "imagem_principal": "https://upload.wikimedia.org/wikipedia/commons/3/33/Claude_Monet_1899_Nadar.jpg",
+      "obras": [
+        {
+          "id": 1,
+          "titulo": "Impressão, nascer do sol (Impression, Sunrise, 1872)",
+          "descricao": "Pintura que mostra o porto de Le Havre ao amanhecer, com barcos escuros em primeiro plano e um sol alaranjado surgindo em meio à névoa.",
+          "imagem": "https://arteeartistas.com.br/wp-content/uploads/2022/11/claude-monet-impressao.jpg"
+        }
+      ]
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Thiago Sena",
+      "email": "thiago@email.com"
+    },
+    {
+      "id": "2",
+      "nome": "Maria Oliveira",
+      "email": "maria@email.com"
+    }
+  ]
+}
