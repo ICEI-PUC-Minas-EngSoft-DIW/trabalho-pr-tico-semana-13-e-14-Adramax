@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Gráfico de Obras por Artista</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../js/app.js" defer></script>
+
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body id="grafico" class="bg-light">
+    <header class="bg-dark text-white text-center py-3 mb-4">
+      <h1>Obras por Artista</h1>
+    </header>
+    <div class="text-center mb-4">
+      <a href="index.html" class="btn btn-outline-primary btn-lg">
+        ⬅ Voltar para Home
+      </a>
+    </div>
+
+    <main class="container text-center">
+      <h2 class="mb-4">Distribuição de obras cadastradas</h2>
+      <canvas id="chartObras" width="400" height="400"></canvas>
+    </main>
+  </body>
+</html>

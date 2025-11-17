@@ -370,4 +370,37 @@ document.addEventListener("DOMContentLoaded", () => {
   if (pageId === "detalhes") carregarDetalhes();
   if (pageId === "form-artista") initFormArtista();
   if (pageId === "form-obra") initFormObra();
+  if (pageId === "grafico") carregarGraficoObras();
 });
+function carregarGraficoObras() {
+  const ctx = document.getElementById("chartObras");
+  if (!ctx) return;
+
+  fetch("http://localhost:3000/artistas")
+    .then((res) => res.json())
+    .then((artistas) => {
+      const labels = artistas.map((a) => a.nome);
+      const valores = artistas.map((a) => (a.obras ? a.obras.length : 0));
+
+      new Chart(ctx, {
+        type: "pie",
+        data: {
+          labels: labels,
+          datasets: [
+            {
+              label: "Número de obras",
+              data: valores,
+              backgroundColor: [
+                "#77B1E7",
+                "#B39DDB",
+                "#FFAB91",
+                "#A5D6A7",
+                "#FFE082",
+                "#90CAF9",
+              ],
+            },
+          ],
+        },
+      });
+    });
+}

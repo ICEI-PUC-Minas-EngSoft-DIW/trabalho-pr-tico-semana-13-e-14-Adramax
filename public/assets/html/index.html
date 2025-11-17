@@ -14,21 +14,22 @@
     <!-- CORRIGIDO: barra normal, não js\app.js -->
     <script src="/public/assets/js/app.js" defer></script>
   </head>
-
   <body id="home" class="bg-light">
     <header>
-      <h1>Galeria de Arte</h1>
-      <p class="mb-0">Explore os maiores artistas e suas obras</p>
+      <header class="bg-dark text-white text-center py-4 mb-4 shadow">
+        <h1>Galeria de Arte</h1>
+        <p class="mb-0">Explore os artistas</p>
+        <a href="grafico.html" class="btn btn-warning mt-3"
+          >Ver gráfico de obras</a
+        >
+      </header>
     </header>
-
     <main class="container py-4">
-      <!-- BOTÃO ADICIONAR ARTISTA -->
       <div class="d-flex justify-content-end mb-4">
         <a href="form_artista.html" class="btn btn-primary">
           Adicionar artista
         </a>
       </div>
-
       <!-- Seção 1: Artistas em Destaque -->
       <section class="mb-5">
         <h2 class="mb-3 text-center">Artistas em Destaque</h2>
